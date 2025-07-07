@@ -9,7 +9,7 @@ import os
 model = ChatOpenAI(
     model="qwen-turbo",                           # 模型名称
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
-    api_key="sk-74d63b7912ec44bbb36ff305d2cf1dec",
+    api_key=YOUR_API_KEY,
     temperature=0.7
 )
 
